@@ -20,7 +20,7 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://startup-template-bootstrap.vercel.app/
 
 ## My process
 This project was created for an assignment from my frontend development class. The goal was to create a basic landing page for a generic startup company using the Bootstrap framework.
