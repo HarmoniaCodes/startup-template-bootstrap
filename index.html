@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>superStartup</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  <link href="./css/styles.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/00e6b68413.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+  <!-- Nav Bar -->
+  <section class="title" id="title">
+    <div class="container-fluid title-container">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand fs-1" href="#">superStartup</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#cta">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Make your dreams a reality.</h1>
+          <button type="button" class="btn btn-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="app-screenshot" src="images/phone.png" alt="App example Mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+  <section id="features">
+    <div class="text-center container-fluid features">
+      <div class="row">
+        <div class="col-lg-4 features-box">
+          <span class="fa-solid fa-circle-check icon-red"></span>
+          <h5>Easy to use.</h5>
+          <p>So easy to use, even your grandpa could do it.</p>
+        </div>
+        <div class="col-lg-4 features-box">
+          <span class="fa-solid fa-lock icon-red"></span>
+          <h5>Secure.</h5>
+          <p>Backed by industry-standard security.</p>
+        </div>
+        <div class="col-lg-4 features-box">
+          <span class="fa-solid fa-heart icon-red"></span>
+          <h5>Guaranteed to work.</h5>
+          <p>Our award-winning support is unparalleled.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="testimonials container-fluid text-center">
+    <div class="testimonials-inner container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h4>superStartup gave me the results that I needed to ensure my client's success. Thanks superStartup! </h4>
+            <img src="images/calvin.jpg" alt="Calvin profile picture"><br />
+            <em>Calvin, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h4 class="testimonial-text">With superStartup's help, getting started was amazingly easy. Their support is the best! </h4>
+            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile"><br />
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Press -->
+    <div class="press-logos container-fluid">
+      <img src="images/TechCrunch.png" alt="tc-logo">
+      <img src="images/tnw.png" alt="tnw-logo">
+      <img src="images/bizinsider.png" alt="biz-insider-logo">
+      <img src="images/mashable.png" alt="mashable-logo">
+    </div>
+  </section>
+  <!-- Pricing -->
+
+  <section class="pricing container-fluid text-center" id="pricing">
+    <div class="pricing container-fluid">
+      <div class="pricing-text">
+        <h3>Amazing plans at affordable prices.</h3>
+        <p>Our no-contract plans allow you to easily choose the best plan for your needs.</p>
+      </div>
+
+      <!-- Plan container -->
+      <div class="row container-fluid card-container">
+        <!-- Chihuahua plan -->
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h6>Bronze</h6>
+            </div>
+            <div class="card-body">
+              <h3>Free</h3>
+              <p>1 Widget</p>
+              <p>Email Support</p>
+              <p>10 Things per month</p>
+              <a href="#" class="btn btn-lg btn-outline-dark">Sign up Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Labrador plan -->
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h6>Silver</h6>
+            </div>
+            <div class="card-body">
+              <h3>$49 / mo</h3>
+              <p>Unlimited Widgets</p>
+              <p>Unlimited Calls</p>
+              <p>Unlimited Things</p>
+              <a href="#" class="btn btn-lg btn-dark">Start Trial</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mastiff plan -->
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h6>Gold</h6>
+            </div>
+            <div class="card-body">
+              <h3>$99 / mo</h3>
+              <p>Pirority Support</p>
+              <p>Unlimited Premium Widgets</p>
+              <p>Unlimited Calls</p>
+              <a href="#" class="btn btn-lg btn-dark">Start Trial</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <div class="cta container-fluid text-center">
+      <h2>What are you waiting for? Get started with us today.</h2>
+      <button type="button" class="btn btn-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i> Download</button>
+    </div>
+
+    </div>
+
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="footer-container container-fluid text-center">
+      <div class="footer">
+        <p class="socials">
+          <a href="#" class="link-dark"><span class="fa-brands fa-twitter social-icons"></span></a>
+          <a href="#" class="link-dark"><span class="fa-brands fa-facebook social-icons"></span></a>
+          <a href="#" class="link-dark"><span class="fa-brands fa-instagram social-icons"></span></a>
+          <a href="#" class="link-dark"><span class="fa-solid fa-envelope social-icons"></span></a>
+        </p>
+        </ul>
+        <p>© Copyright Harmonia.codes | all information presented here is for portfolio demonstration purposes only.</p>
+      </div>
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+
+p {
+  color: #666666;
+  font-weight: 400;
+}
+
+/* Headers */
+h1 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  color: #000;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h4 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h6 {
+  color: #000;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* Page Sections */
+#cta {
+  background-image: linear-gradient(#4F628E, #2E4172);
+}
+
+#features {
+  position: relative;
+  background-color: #fff;
+  z-index: 2;
+}
+
+#footer {
+  background-color: #fff;
+}
+
+/* Navbar Styling */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+}
+
+.nav-item {
+  font-family: "Montserrat";
+  padding: 15px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* Title Section Styling */
+.title {
+  background-image: linear-gradient(#4F628E, #2E4172);
+}
+
+.title-container {
+  width: 80%;
+}
+
+.title img {
+  transform: rotate(25deg);
+  margin-bottom: -13rem;
+  position: relative;
+}
+
+.app-screenshot {
+  width: 20rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Title Section - Responsive Breakpoints */
+@media (max-width:992px) {
+  .title {
+    text-align: center;
+  }
+
+  .title img {
+    transform: rotate(0deg);
+    margin-bottom: 4rem;
+  }
+
+  .app-screenshot {
+    left: 0;
+  }
+
+  .title-container {
+    width: 100%;
+  }
+}
+
+/* Button styling */
+.btn {
+  font-family: "Ubuntu";
+  margin: 5% 3% 5% 0;
+}
+
+/* Features section styling */
+.features {
+  position: relative;
+  width: 80%;
+}
+
+.features-box {
+  background-color: #fff;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  position: relative;
+}
+
+.icon-red {
+  color: #2E4172;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.icon-red:hover {
+  color: #4F628E;
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+  background-image: linear-gradient(#4F628E, #2E4172);
+  padding: 5rem 0 3rem 0;
+}
+
+.testimonials-inner {
+  color: #FFF;
+  font-weight: bold;
+}
+
+.testimonials-inner img {
+  border-radius: 100%;
+  width: 8rem;
+  margin-right: 1rem;
+}
+
+/* Press Section Styling */
+.press-logos {
+  margin: 3rem 0;
+}
+
+.press-logos img {
+  margin: 1rem 2rem;
+  width: 10rem;
+}
+
+.carousel-inner {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Pricing Section Styling */
+.card-title {
+  background-color: #cccccc;
+}
+
+.card {
+  width: 18rem;
+  margin-bottom: 4rem;
+}
+
+.pricing {
+  margin: 5rem auto;
+}
+
+/* Column spacing override */
+.col-lg-4 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 18rem;
+  padding: 0;
+}
+
+/* Call to action section */
+.cta {
+  width: 60%;
+  padding: 4rem 0;
+}
+
+/* Social link styling */
+.socials {
+  color: #000;
+  font-size: 2rem;
+}
+
+.social-icons {
+  padding: 5rem 2rem;
+}
